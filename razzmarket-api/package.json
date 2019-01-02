@@ -2,10 +2,10 @@
   "name": "razzmarket-api",
   "version": "1.0.0",
   "description": "The backend of the Razzmarket application ",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "nodemon index.js"
+    "dev": "nodemon app.js"
   },
   "author": "Rasmus Dupont Søgaard",
   "license": "MIT",
@@ -15,6 +15,7 @@
     "mongodb": "^3.1.10"
   },
   "devDependencies": {
+    "dotenv": "^6.2.0",
     "nodemon": "^1.18.9"
   }
 }

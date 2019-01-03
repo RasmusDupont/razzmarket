@@ -1,11 +1,11 @@
-const Stocks = require('./StockAPI')
-const Collections = require('./Collections')
-const Company = require('./Company')
-const Sectors = require('./Sectors')
+const StockAPI = require('./StockAPI')
+const Collection = require('./Collection')
+const Stock = require('./Stock')
+const Sector = require('./Sector')
 
 module.exports = {
-    Stocks,
-    Collections,
-    Company,
-    Sectors
+    StockAPI,
+    Collection,
+    Stock,
+    Sector
 }
